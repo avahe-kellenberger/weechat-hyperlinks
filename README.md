@@ -1,5 +1,7 @@
 # weechat-hyperlinks
 
+**Currently awaiting support from weechat**: See [here](https://github.com/weechat/weechat/issues/1252) for the feature request.
+
 ## Purpose
 This script is being written to display hyperlinks in WeeChat when lengthy URLs are wrapped in the terminal (see [here](https://gist.github.com/egmontkob/eb114294efbcd5adb1944c9f3cb5feda) for details on hyperlinks in terminal emulators).
 

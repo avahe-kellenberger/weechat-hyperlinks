@@ -13,7 +13,7 @@ def hyperlink_injector(data, signal, signal_data):
    
     Parameters
     ----------
-   @see https://weechat.org/files/doc/stable/weechat_scripting.en.html#irc_catch_messages
+    @see https://weechat.org/files/doc/stable/weechat_scripting.en.html#irc_catch_messages
 
     signal: string
        The metadata of the message, as "xxx,irc_in|irc_in2_yyy"
@@ -59,7 +59,7 @@ def create_hyperlink(text, url):
     -------
     A textual representation of the hyperlink to be printed to the terminal.
     """
-    return "\e]8;;" + url + "\e\\" + text + "\e8;;\e\\"
+    return "\e]8;;" + url + "\e\\" + text + "\e]8;;\e\\"
 
 def find_urls(data):
     """Detects URLs in the given string.
